@@ -15,6 +15,8 @@
 👉 https://github.com/abhinayanand7/Portfolio
 
 ---
+## Linkedin Profile
+https://www.linkedin.com/in/abhinay-anand-b1687b303/
 
 ## ✨ Features
 
