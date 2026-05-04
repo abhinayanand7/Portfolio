@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinay Anand - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h2>Abhinay Anand</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button id="themeToggle">🌙</button>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <img src="images/profile.jpg" class="profile">
+  <h1>Hi, I'm Abhinay Anand 👋</h1>
+  <p class="subtitle" id="typing"></p>
+  <p class="tagline">Building real-world web applications with clean UI & scalable logic</p>
+  <button onclick="scrollToContact()">Contact Me</button>
+  
+  <div class="socials">
+    <a href="https://github.com/abhinayanand7" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/abhinay-anand-b1687b303/" target="_blank">LinkedIn</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+  <div class="about-card">
+    <h2>About Me</h2>
+    <p>
+      I am a Full Stack Developer 🚀 focused on building efficient and scalable web applications.
+      <br><br>
+      I have experience working with technologies like JavaScript, PHP, MySQL, and React.
+      <br><br>
+      I enjoy solving real-world problems and continuously improving my development skills.
+    </p>
+  </div>
+
+  <div class="about-card">
+    <p>
+       Full-stack developer with experience in building scalable web applications.
+      I combine strong backend logic with clean frontend UI to create seamless user experiences.
+    </p>
+
+    <h4>🎓 B.Tech in Computer Science Engineering</h4>
+    <p>Sharda University • 2023–2027</p>
+  </div>
+
+  <div class="about-card">
+    <h3>Soft Skills</h3>
+    <div class="soft-skills">
+      <span>Leadership</span>
+      <span>Communication</span>
+      <span>Team Collaboration</span>
+      <span>Problem-Solving</span>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <p class="section-tag">SKILLS</p>
+  <h2 class="section-title">My Tech Stack</h2>
+
+  <div class="skills-container">
+
+    <div class="skills-card">
+      <h3>Technical Skills</h3>
+
+      <div class="skill">
+        <p>HTML / CSS / JS <span>90%</span></p>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>React.js <span>85%</span></p>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>Node.js <span>80%</span></p>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>Java <span>75%</span></p>
+        <div class="bar"><div style="width:75%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>MongoDB <span>80%</span></p>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+
+    </div>
+
+    <div class="skills-card">
+      <h3>Core Expertise</h3>
+      <div class="tags">
+        <span>Data Structures & Algorithms</span>
+        <span>RESTful API Development</span>
+        <span>CRUD Operations</span>
+        <span>Database Design</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- END OF SKILLS SECTION -->
+
+<!-- Services -->
+<section id="services">
+  <p class="section-subtitle">SERVICES</p>
+  <h2 class="section-title">What I Offer</h2>
+
+  <div class="services-container">
+
+    <div class="service-card">
+      <div class="icon">🌐</div>
+      <h3>Web Development</h3>
+      <p>Full-stack web applications using React, Node.js, and MongoDB.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🎨</div>
+      <h3>UI/UX Design</h3>
+      <p>Clean, responsive UI focused on great user experience.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">💻</div>
+      <h3>Full Stack Development</h3>
+      <p>Complete web apps with frontend, backend, and database.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">💡</div>
+      <h3>Problem Solving</h3>
+      <p>Strong DSA skills for optimized solutions.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">📡</div>
+      <h3>API Development</h3>
+      <p>Build REST APIs for frontend-backend communication.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <p class="section-tag">PROJECTS</p>
+  <h2 class="section-title">Digital Product Showcases</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>SmartGrocery</h3>
+      <p>Full-stack inventory system with CRUD & APIs</p>
+      <a href="https://github.com/abhinayanand7/SmartGroc-Platform" target="_blank">
+        <button>View Project</button>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>RentWheels</h3>
+      <p>Vehicle rental platform with booking system</p>
+      <a href="https://github.com/abhinayanand7/Rentwheels" target="_blank">
+        <button>View Project</button>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>Face Recognition</h3>
+      <p>ML system for attendance tracking</p>
+      <a href="https://github.com/abhinayanand7/Face-Recognition-Attendance-System" target="_blank">
+        <button>View Project</button>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <p class="section-tag">EXPERIENCE</p>
+  <h2 class="section-title">My Journey</h2>
+
+  <div class="timeline">
+
+    <!-- Bootcamp -->
+    <div class="timeline-item">
+      <div class="timeline-icon">💻</div>
+      <div class="timeline-content">
+        <h3>Full Stack Development & DSA Bootcamp</h3>
+        <p class="company">Sharda University • May 2025 – June 2025</p>
+        <ul>
+          <li>Learned Data Structures & Algorithms for problem-solving</li>
+          <li>Built multiple full-stack projects using React & Node.js</li>
+          <li>Developed RESTful APIs and handled backend logic</li>
+          <li>Worked with MongoDB for database operations</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Hackathon -->
+    <div class="timeline-item">
+      <div class="timeline-icon">🏆</div>
+      <div class="timeline-content">
+        <h3>Smart India Hackathon 2025</h3>
+        <p class="company">Participant</p>
+        <ul>
+          <li>Participated in a national-level hackathon</li>
+          <li>Collaborated in a team to solve real-world problems</li>
+          <li>Gained hands-on experience in rapid development and teamwork</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Web Dev Bootcamp -->
+    <div class="timeline-item">
+      <div class="timeline-icon">📘</div>
+      <div class="timeline-content">
+        <h3>Web Development Bootcamp</h3>
+        <p class="company">Udemy • July 2024</p>
+        <ul>
+          <li>Learned fundamentals of HTML, CSS, and JavaScript</li>
+          <li>Built responsive web pages and UI components</li>
+          <li>Strengthened frontend development basics</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Java Course -->
+    <div class="timeline-item">
+      <div class="timeline-icon">⚙️</div>
+      <div class="timeline-content">
+        <h3>Java Foundation Course</h3>
+        <p class="company">Oracle Academy • Oct 2024</p>
+        <ul>
+          <li>Learned core Java programming concepts</li>
+          <li>Practiced OOP principles and problem-solving</li>
+          <li>Built strong programming fundamentals</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Campus Ambassador -->
+    <div class="timeline-item">
+      <div class="timeline-icon">🎓</div>
+      <div class="timeline-content">
+        <h3>Campus Ambassador</h3>
+        <p class="company">MyCaptain • Aug 2025 – Sept 2025</p>
+        <ul>
+          <li>Increased student engagement across campus</li>
+          <li>Generated 30+ leads through outreach campaigns</li>
+          <li>Organized and coordinated campus events</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me → Get in Touch</h2>
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Email">
+  <textarea placeholder="Message"></textarea>
+  <button>Send</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Abhinay Anand | Built with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+const elements = document.querySelectorAll("section");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = 1;
+      entry.target.style.transform = "translateY(0)";
+    }
+  });
+}, { threshold: 0.1 });
+
+elements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
+
+/* Theme Toggle Button */
+#themeToggle {
+  background: none;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#themeToggle:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+/* Light Mode */
+body.light-mode {
+  background: #f5f5f5;
+  color: #333;
+}
+
+body.light-mode nav {
+  background: #e8e8e8;
+}
+
+body.light-mode nav a {
+  color: #333;
+}
+
+body.light-mode nav a:hover {
+  color: #38bdf8;
+}
+
+body.light-mode .about-card {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+body.light-mode .card {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+body.light-mode #contact input,
+body.light-mode #contact textarea {
+  background: white;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+body.light-mode footer {
+  background: #e8e8e8;
+  color: #666;
+}
+
+/* Hero Section */
+.hero .subtitle {
+  color: #38bdf8;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.hero .tagline {
+  color: #cbd5e1;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-mode .hero .subtitle {
+  color: #0ea5e9;
+}
+
+.light-mode .hero .tagline {
+  color: #475569;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.about-card {
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.about-card h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #38bdf8;
+}
+
+.about-card p {
+  color: #cbd5e1;
+  line-height: 1.9;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.light-mode .about-card p {
+  color: #475569;
+}
+
+/* Skills Section */
+#skills {
+  padding: 60px 20px;
+}
+
+#skills .section-tag {
+  text-align: center;
+  font-size: 14px;
+  color: #38bdf8;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#skills .section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skills-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.skills-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.skills-card h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 16px;
+}
+
+.bar {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 8px;
+  margin-top: 5px;
+}
+
+.bar div {
+  height: 100%;
+  background: #38bdf8;
+}
+
+/* Services Section */
+#services {
+  padding: 60px 20px;
+}
+
+#services .section-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #38bdf8;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#services .section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.service-card .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.service-card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.light-mode .service-card {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.light-mode .service-card p {
+  color: #475569;
+}
+
+/* Projects Section */
+#projects {
+  padding: 60px 20px;
+}
+
+#projects h2 {
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+/* Projects Container Grid */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: linear-gradient(145deg, #1e293b, #0f172a);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+}
+
+.project-card h3 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.project-card p {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.project-card a {
+  text-decoration: none;
+}
+
+.project-card button {
+  background: #38bdf8;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.project-card button:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
+
+.light-mode .project-card {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.light-mode .project-card p {
+  color: #475569;
+}
+
+/* Experience Section */
+#experience {
+  padding: 60px 20px;
+}
+
+#experience .section-tag {
+  text-align: center;
+  font-size: 14px;
+  color: #38bdf8;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#experience .section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  font-size: 24px;
+}
+
+.timeline-content {
+  padding-left: 40px;
+}
+
+.timeline-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.timeline-content p.company {
+  font-size: 14px;
+  color: #a1a1aa;
+  margin-bottom: 10px;
+}
+
+.timeline-content ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.light-mode #experience .section-tag {
+  color: #0ea5e9;
+}
+
+.light-mode #experience .section-title {
+  color: #475569;
+}
+
+.light-mode .timeline-item {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.light-mode .timeline-item:hover {
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.light-mode .timeline-content ul {
+  color: #475569;
+}
